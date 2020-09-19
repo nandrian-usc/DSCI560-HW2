@@ -9,3 +9,5 @@ Link to data on Figshare:
 1. x data: https://doi.org/10.6084/m9.figshare.12978962.v1
 2. y data: https://doi.org/10.6084/m9.figshare.12978959.v1
 3. line plot: https://doi.org/10.6084/m9.figshare.12978965.v1
+
+DOI on Zenodo: <a href="https://zenodo.org/badge/latestdoi/296775003"><img src="https://zenodo.org/badge/296775003.svg" alt="DOI"></a>
