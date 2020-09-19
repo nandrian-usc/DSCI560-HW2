@@ -1,11 +1,8 @@
 import sys
 
 def main():
-    if (len(sys.argv) != 3):
-        print("Usage: y1000.py <input_file> <output_file>")
-        sys.exit(-1)
-    input_file = sys.argv[1]
-    output_file = sys.argv[2]
+    input_file = "x.csv"
+    output_file = "y.csv"
     
     with open(input_file, "r") as f:
         l = [str(int(s.replace("\n","")) * 3 + 6) for s in f]
