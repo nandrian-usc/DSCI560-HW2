@@ -2,12 +2,8 @@ import sys
 import matplotlib.pyplot as plt
 
 def main():
-    if (len(sys.argv) != 3):
-        print("Usage: visual.py <input_fileX> <input_fileY>")
-        sys.exit(-1)
-        
-    input_fileX = sys.argv[1]
-    input_fileY = sys.argv[2]
+    input_fileX = "x.csv"
+    input_fileY = "y.csv"
     
     with open(input_fileX, "r") as f:
         x = [int(s.replace("\n","")) for s in f]
