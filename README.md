@@ -111,7 +111,7 @@ python xy1000VisualizePlotline.py
 
 ## Q4. Extract dependency of dsci560H4 environment
 
-### a. Steps in order to compare between environment dependency:
+### a. Steps in order to compare between environment dependency: (screenshot in Q3 above)
 i. (Empty dependency already generated in step Q2.iii above) Check dependency for new environment (which can execute random number script savely) by running:
 
 ```
