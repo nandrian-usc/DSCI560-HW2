@@ -84,7 +84,7 @@ iv. Check for python version by running:
 python --version
 ```
 
-v. (Check that random script need extra library other than basic python package) Installed Matplotlib (version 3.2 was the most stable for python 3.8) to generate plot line visualization by running:
+v. (Check that random script need extra library other than basic python package) Install Matplotlib (version 3.2 was the most stable for python 3.8) to generate plot line visualization by running:
 
 ```
 pip install matplotlib==3.2
@@ -112,7 +112,7 @@ python xy1000VisualizePlotline.py
 ## Q4. Extract dependency of dsci560H4 environment
 
 ### a. Steps in order to compare between environment dependency:
-i. (Empty dependency already generated in step Q2.iii above) Check dependency for new environment which can execute random number script savely by running:
+i. (Empty dependency already generated in step Q2.iii above) Check dependency for new environment (which can execute random number script savely) by running:
 
 ```
 pip freeze
@@ -185,6 +185,6 @@ viii. Click launch, wait until installation of requirements.txt dependency compl
 
 ## Q6. Create instruction in README.md file
 
-### a. How to setup virtual environment and execute it is described in Q1 - Q2 steps above.
+### a. How to setup virtual environment and execute it was described in Q1 - Q2 steps above.
 
-### b. Adding Binder project was already described in Q5 steps. Using badge path from step Q5.vii, copy and paste the path inside README.md file.
+### b. Adding Binder project was already described in Q5 steps. Using badge path from step Q5.vii, copy and paste the path inside README.md file. Badge available at the top of this README file.
