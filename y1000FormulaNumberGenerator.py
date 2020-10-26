@@ -19,9 +19,9 @@ def main():
         resultFile.write(data)
         
     print("Generate 1000 y-axis numbers using y = 3x + 6 formula")
-    print("y-axis number distribution -> (Key number : # count of number)")
+    print("y-axis number distribution = (x -> y : # count of number)")
     for (idx, cnt) in dictNumber.items():
-        print(str(idx) + " : " + str(cnt))
+        print( str(int(((idx - 6) / 3))) + " -> " + str(idx) + " : " + str(cnt))
 
 if __name__ == '__main__':
     main()
