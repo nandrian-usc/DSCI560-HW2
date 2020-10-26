@@ -41,7 +41,7 @@ DOI on Zenodo: <a href="https://zenodo.org/badge/latestdoi/296775003"><img src="
 
 # INSTRUCTION
 
-Q1. Create empty environment named dsci560H4.
+## Q1. Create empty environment named dsci560H4.
 
 i. If not already installed, do pip installation of virtualenv package. Open command prompt/Jupyter terminal in Windows OS and run:
 
@@ -56,7 +56,7 @@ python -m venv dsci560env
 ``` 
 
 
-Q2. Activate environment of dsci560H4 and installed necessary package to run random number script.
+## Q2. Activate environment of dsci560H4 and installed necessary package to run random number script.
 
 i. Activate environment by running:
 
@@ -104,13 +104,14 @@ python y1000FormulaNumberGenerator.py
 python xy1000VisualizePlotline.py
 ```
 
-Q3. Take screenshot of the terminal by using normal print screen function on keyboard.
+## Q3. Take screenshot of the terminal by using normal print screen function on keyboard.
 
 <img src="terminal.jpg">
 
 
-Q4. Extract dependency of dsci560H4 environment
-a. Steps in order to compare between environment dependency:
+## Q4. Extract dependency of dsci560H4 environment
+
+### a. Steps in order to compare between environment dependency:
 i. (Empty dependency already generated in step Q2.iii above) Check dependency for new environment which can execute random number script savely by running:
 
 ```
@@ -149,24 +150,21 @@ Comparison:
 •	The dsci560H4 environment stands alone from outside global environment. After deactivating the dsci560H4 environment and done another pip freeze environment (DependencyOutsideEnvironment.txt), we can see that it has more packages installed in the past.
 
 
-b. Exclude dsci560H4 environment folder from github commit. Add new file in DSCI560-HW2 folder and name it ".gitignore". Edit in notepad, write, and save:
+### b. Exclude dsci560H4 environment folder from github commit. Add new file in DSCI560-HW2 folder and name it ".gitignore". Edit in notepad, write, and save:
 
 ```
 dsci560H4
-
 1000_x-axis_random_number_ranging_0_to_100.csv
-
 1000_y-axis_number_by_3x_plus_6.csv
-
 lineplot_random_x_and_3xPlus6_y.png
 ```
 
 The last 3 lines is to exclude data so that it will not be uploaded to github (since data should be kept in Figshare instead).
 
-c. To operate in Binder, dependency requirement should be named requirements.txt. But for comparison purpose, EnvironmentDependencyForRandomNumberScript.txt will not be renamed into requirements.txt, instead, make another copy of EnvironmentDependencyForRandomNumberScript.txt and renamed it as requirements.txt.
+### c. To operate in Binder, dependency requirement should be named requirements.txt. But for comparison purpose, EnvironmentDependencyForRandomNumberScript.txt will not be renamed into requirements.txt, instead, make another copy of EnvironmentDependencyForRandomNumberScript.txt and renamed it as requirements.txt.
 
 
-Q5. Update source code so that can be run on Binder.
+## Q5. Update source code so that can be run on Binder.
 
 i. Update script (x1000RandomNumberGenerator.py, y1000FormulaNumberGenerator.py, and xy1000VisualizePlotline) to output initial, intermediate, and final visualization in 1000RandomNumberPlot.ipynb notebook.
 
@@ -185,8 +183,8 @@ vii. Get Binder badge by expanding "Copy the text below, then paste into your RE
 viii. Click launch, wait until installation of requirements.txt dependency complete and try to execute all cell in 1000RandomNumberPlot.ipynb notebook.
 
 
-Q6. Create instruction in README.md file
+## Q6. Create instruction in README.md file
 
-a. How to setup virtual environment and execute it is described in Q1 - Q2 steps above.
+### a. How to setup virtual environment and execute it is described in Q1 - Q2 steps above.
 
-b. Adding Binder project was already described in Q5 steps. Using badge path from step Q5.vii, copy and paste the path inside README.md file.
+### b. Adding Binder project was already described in Q5 steps. Using badge path from step Q5.vii, copy and paste the path inside README.md file.
