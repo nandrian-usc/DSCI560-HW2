@@ -2,8 +2,8 @@ import sys
 import matplotlib.pyplot as plt
 
 def main():
-    input_fileX = "x.csv"
-    input_fileY = "y.csv"
+    input_fileX = "1000_x-axis_random_number_ranging_0_to_100.csv"
+    input_fileY = "1000_y-axis_number_by_3x_plus_6.csv"
     
     with open(input_fileX, "r") as f:
         x = [int(s.replace("\n","")) for s in f]
@@ -12,7 +12,7 @@ def main():
     
     plt.plot(x, y, marker='o')
     plt.grid(True)    
-    plt.savefig('lineplot.png')
+    plt.savefig('lineplot_random_x_and_3xPlus6_y.png')
     plt.show()
     
     

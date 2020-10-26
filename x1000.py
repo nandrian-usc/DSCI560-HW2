@@ -2,7 +2,7 @@ import sys
 from random import randint
 
 def main():
-    output_file = "x.csv"
+    output_file = "1000_x-axis_random_number_ranging_0_to_100.csv"
     l = list()
     for _ in range(1000):
         l.append(str(randint(0, 101)))
