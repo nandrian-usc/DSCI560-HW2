@@ -98,6 +98,13 @@ v. (Check that random script need extra library other than basic python package)
 pip install matplotlib==3.2
 ```
 
+or by using requirement.txt, run:
+
+```
+pip install -r requirements.txt
+```
+ 
+
 vi. Check that all random number script can be executed using newly environment (with matplotlib installed)
 
 ```
