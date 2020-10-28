@@ -206,6 +206,11 @@ viii. Click launch, wait until installation of requirements.txt dependency compl
 
 ## Q6. Create instruction in README.md file
 
-### a. How to setup virtual environment and execute it was described in Q1 - Q2 steps above.
+### a. How to setup virtual environment and execute it was described in Q1 - Q2 steps above and when finished, run deactivate.
+
+```
+deactivate
+```
+
 
 ### b. Adding Binder project was already described in Q5 steps. Using badge path from step Q5.vii, copy and paste the path inside README.md file. Badge available at the top of this README file.
