@@ -2,9 +2,15 @@
 
 A Binder-compatible repo with a requirements.txt file.
 
-Access this Binder at the following URL:
+Access this Binder tree at the following URL:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nandrian-usc/DSCI560-HW2/master)
+
+
+Or access notebook directly at the following URL:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nandrian-usc/DSCI560-HW2/master?filepath=1000RandomNumberPlot.ipynb)
+
 
 
 The requirements.txt file list all Python libraries that the notebooks depend on, and they will be installed using:
