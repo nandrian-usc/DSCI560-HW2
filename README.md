@@ -43,13 +43,20 @@ DOI on Zenodo: <a href="https://zenodo.org/badge/latestdoi/296775003"><img src="
 
 ## Q1. Create empty environment named dsci560H4.
 
-i. If not already installed, do pip installation of virtualenv package. Open command prompt/Jupyter terminal in Windows OS and run:
+i. Copy this github URL and clone to local repository by executing in command line:
+
+```
+git clone https://github.com/nandrian-usc/DSCI560-HW2.git
+```
+
+
+ii. If not already installed, do pip installation of virtualenv package. Open command prompt/Jupyter terminal in Windows OS and run:
 
 ```
 pip install virtualenv
 ```
 
-ii. Go to project folder (DSCI560-HW2) and create new empty environment named dsci560H4 by running:
+iii. Go to project folder (DSCI560-HW2) and create new empty environment named dsci560H4 by running:
 
 ```
 python -m venv dsci560env
@@ -145,7 +152,7 @@ Comparison:
 
 •	Empty environment of dsci560H4 has nothing inside its pip freeze environment file (EmptyEnvironmentDependency.txt) but if we do "python --version" in the console then it would show that Python 3.8.3 already installed.
 
-•	To execute Random Number scripts from Homework 2, we only need python standard library, except for visualizing the graph where matplotlib would be needed. After manual pip install matplotlib, the new pip freeze environment file show several dependency as shown in picture.
+•	To execute Random Number scripts from Homework 2, we only need python standard library, except for visualizing the graph where matplotlib would be needed. After manual pip install matplotlib, the new pip freeze environment file show several dependency as shown in picture. Other depedencies other than matplotlib were also installed, they are part of matplotlib dependencies.
 
 •	The dsci560H4 environment stands alone from outside global environment. After deactivating the dsci560H4 environment and done another pip freeze environment (DependencyOutsideEnvironment.txt), we can see that it has more packages installed in the past.
 

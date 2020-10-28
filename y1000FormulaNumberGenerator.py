@@ -1,4 +1,5 @@
 import sys
+import matplotlib.pyplot as plt
 
 def main():
     input_file = "1000_x-axis_random_number_ranging_0_to_100.csv"
@@ -17,7 +18,14 @@ def main():
     with open(output_file, "w") as resultFile:
         data = "\n".join([str(n) for n in l])
         resultFile.write(data)
-        
+    
+    n, bins, patches = plt.hist(l, 100)#, density=True, facecolor='g', alpha=0.75)
+    plt.xlabel('y')
+    plt.ylabel('Count')
+    plt.title('Distribution of y = 3x + 6')
+    plt.grid(True)
+    plt.show()
+    
     print("Generate 1000 y-axis numbers using y = 3x + 6 formula")
     print("y-axis number distribution = (x -> y : # count of number)")
     for (idx, cnt) in dictNumber.items():
