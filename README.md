@@ -104,7 +104,7 @@ v. (Check that random script need extra library other than basic python package)
 pip install matplotlib==3.2
 ```
 
-or by using requirement.txt, run:
+or by using requirement.txt from git clone, run:
 
 ```
 pip install -r requirements.txt
@@ -143,6 +143,12 @@ or to download, run:
 
 ```
 pip freeze > EnvironmentDependencyForRandomNumberScript.txt
+```
+
+Note: later this EnvironmentDependencyForRandomNumberScript.txt should be renamed requirements.txt in step Q4.c below so that it executable by Binder, but for comparison purpose it will be left with current name for now. Other way than renaming, we can also just generate another dependency file by:
+
+```
+pip freeze > requirements.txt
 ```
 
 ii. Deactivate dsci560H4 environment by running: 
