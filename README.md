@@ -78,7 +78,7 @@ i. Activate environment by running:
 .\dsci560H4\Script\activate
 ```
 
-ii. Ensure that "(dsci560H4)" appeared in the left side of command prompt line. 
+ii. Ensure that "(dsci560H4)" text appeared in the left side of command prompt line. 
 
 iii. Check existing dependency of empty environment by running: (this should show empty)
 
@@ -157,7 +157,7 @@ ii. Deactivate dsci560H4 environment by running:
 deactivate
 ```
 
-iii. Ensure that (dsci560H4) already disappeared from left part of command line. Compare dependency outside of dsci560H4 environment by running:
+iii. Ensure that "(dsci560H4)" text already disappeared from left part of command line. Compare dependency outside of dsci560H4 environment by running:
 
 ```
 pip freeze > DependencyOutsideEnvironment.txt
