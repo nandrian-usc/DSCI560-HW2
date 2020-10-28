@@ -49,6 +49,7 @@ i. Copy this github URL and clone to local repository by executing in command li
 git clone https://github.com/nandrian-usc/DSCI560-HW2.git
 ```
 
+Note: This project was executed using python 3.8.3 version.
 
 ii. If not already installed, do pip installation of virtualenv package. Open command prompt/Jupyter terminal in Windows OS and run:
 
