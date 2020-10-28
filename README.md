@@ -145,7 +145,7 @@ or to download, run:
 pip freeze > EnvironmentDependencyForRandomNumberScript.txt
 ```
 
-Note: later this EnvironmentDependencyForRandomNumberScript.txt should be renamed requirements.txt in step Q4.c below so that it executable by Binder, but for comparison purpose it will be left with current name for now. Other way than renaming, we can also just generate another dependency file by:
+Note: later this EnvironmentDependencyForRandomNumberScript.txt should be renamed requirements.txt in step Q4.c below so that it executable by Binder, but for comparison purpose it will be left with current name for now. Other way than renaming, we can also just generate requirements.txt dependency file by:
 
 ```
 pip freeze > requirements.txt
