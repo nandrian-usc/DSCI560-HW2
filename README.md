@@ -75,7 +75,7 @@ python -m venv dsci560env
 i. Activate environment by running:
 
 ```
-.\dsci560H4\Script\activate
+.\dsci560H4\Scripts\activate
 ```
 
 ii. Ensure that "(dsci560H4)" text appeared in the left side of command prompt line. 
